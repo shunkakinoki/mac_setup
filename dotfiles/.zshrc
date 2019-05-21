@@ -50,11 +50,7 @@ prompt spaceship
 ### TMUX
 alias TXWORK="tmux new -session WORK\; \
     send-keys 'gotop' C-m \; \
-    split-window -v -p \; \
-    split-window -h -p \; \
-    send-keys 'neofetch' C-m \; \
-    select-pane -t 1 \; \
-    send-keys 'ls' C-m \;"
+    split-window -v -p"
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
