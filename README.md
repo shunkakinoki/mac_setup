@@ -3,13 +3,19 @@
 My implementation of Macintosh Setup.  
 Original code [https://github.com/caseyWebb/laptop](https://github.com/caseyWebb/laptop)
 
+## TL;DR
+
+`curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash`
+
+### Abstract
+
 Development (and more) environment setup for MacOS. Automatically syncs to make cloning your machine a breeze.
 
 Built with:
+
 - Homebrew
 - zsh
 - git
-
 
 ### Install
 
