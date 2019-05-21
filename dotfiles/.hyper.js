@@ -78,7 +78,9 @@ module.exports = {
     "hyper-tab-icons-plus",
     "verminal",
     "hyper-star-wars",
-    "hyper-pokemon",
+
+    /// DEPRECATED
+    // "hyper-pokemon",
   ],
 
   localPlugins: [],
