@@ -26,6 +26,21 @@ export SPACESHIP_PROMPT_ORDER=(
 battery
 time
 user
+line_sep
+dir
+host
+git
+package
+docker
+aws
+conda
+exec_time
+
+battery
+vi_mode
+jobs
+exit_code
+char 
 )
 
 autoload -U promptinit; promptinit
