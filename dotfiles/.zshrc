@@ -5,7 +5,7 @@ PATH+=:$N_PREFIX/bin
 
 ### ALIAS
 alias RESET='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
-alias TMWORK='bash ~/.mac_setup/utils/work_tmux.sh'
+alias TXWORK='bash ~/.mac_setup/utils/work_tmux.sh'
 alias RELOAD='source ~/.zshrc'
 alias CHANGE='code ~/.zshrc'
 
