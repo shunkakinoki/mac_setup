@@ -51,7 +51,6 @@ module.exports = {
     /// TODO
     hyperTabsMove: {
       moveLeft: 'command+[',
-      moveLeft: ['command', 'right'],
     },
     StarWarsTheme: {
       character: 'emperor', // Define your favorite star wars character
