@@ -53,6 +53,12 @@ module.exports = {
       moveLeft: ['command', 'left'],
       moveLeft: ['command', 'right'],
     },
+    StarWarsTheme: {
+      character: 'yoda', // Define your favorite star wars character
+      lightsaber: 'true', // Activate your theme's lightsaber mode
+      unibody: 'false', // Define the color of the Hyper window header
+      avatar: 'true' // Activate your theme's background avatar
+    },
     poketab: 'true',
     unibody: 'false'
   },
