@@ -49,7 +49,7 @@ module.exports = {
     macOptionSelectionMode: 'vertical',
     webGLRenderer: true,
     hyperTabsMove: {
-      moveLeft: 'command+shift+left',
+      moveLeft: ['command', 'shift', 'left'],
       moveRight: ['command+]', 'r i g h t']
     }
   },
