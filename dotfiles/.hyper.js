@@ -54,7 +54,8 @@ module.exports = {
       moveLeft: ['command', 'right'],
     },
     pokemon: 'Legendary',
-    poketab: 'true'
+    poketab: 'true',
+    unibody: 'false'
   },
 
   plugins: [
