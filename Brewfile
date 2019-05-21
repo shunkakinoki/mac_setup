@@ -1,5 +1,4 @@
 tap "caskroom/cask"
-tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "cjbassi/gotop"
 tap "homebrew/bundle"
