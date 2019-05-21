@@ -50,7 +50,7 @@ module.exports = {
     webGLRenderer: true,
     /// TODO
     hyperTabsMove: {
-      moveLeft: ['command', 'left'],
+      moveLeft: 'command+[',
       moveLeft: ['command', 'right'],
     },
     StarWarsTheme: {
@@ -77,10 +77,11 @@ module.exports = {
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
+    "verminal",
+
     /// DEPRECATED
     //  "hyper-star-wars",
     // "hyper-pokemon",
-    "verminal",
   ],
 
   localPlugins: [],
