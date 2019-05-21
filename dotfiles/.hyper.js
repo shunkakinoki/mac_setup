@@ -56,11 +56,11 @@ module.exports = {
   },
 
   plugins: [
+    "gitrocket",
     "hypercwd",
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
-    "hyper-cat",
     "hyper-custom-touchbar",
     "hyper-opacity",
     "hyper-pane",
@@ -68,7 +68,6 @@ module.exports = {
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
-    "verminal",
   ],
 
   localPlugins: [],
