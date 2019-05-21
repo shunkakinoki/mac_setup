@@ -21,6 +21,7 @@ export SPACESHIP_USER_SHOW=always
 export SPACESHIP_USER_PREFIX='*OBLITERATE THE GALAXY* '
 export SPACESHIP_USER_COLOR=blue
 export SPACESHIP_DIR_PREFIX=
+export SPACESHIP_BATTERY_SHOW=always
 
 autoload -U promptinit; promptinit
 prompt spaceship
