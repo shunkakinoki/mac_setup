@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-cd ~/.laptop
+cd ~/.mac_setup
 
 if git status | grep -q dotfiles; then
   git add dotfiles/

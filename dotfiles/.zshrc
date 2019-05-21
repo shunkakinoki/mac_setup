@@ -41,10 +41,10 @@ ssh-add ~/.ssh/id_rsa &>/dev/null
 
 eval "$(rbenv init -)"
 
-chmod +x ~/.laptop/scripts/*.sh
+chmod +x ~/.mac_setup/scripts/*.sh
 
-for script in ~/.laptop/scripts/20-*.sh; do source $script; done
-for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
+for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
+for script in ~/.mac_setup/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 [ -f /Users/casey/.travis/travis.sh ] && source /Users/casey/.travis/travis.sh
 

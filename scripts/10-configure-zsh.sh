@@ -12,5 +12,5 @@ fi
 
 if [[ ! -a ~/.zshrc ]]; then
   echo "Configuring zsh..."
-  ln -s ~/.laptop/dotfiles/.zshrc ~/.zshrc
+  ln -s ~/.mac_setup/dotfiles/.zshrc ~/.zshrc
 fi
