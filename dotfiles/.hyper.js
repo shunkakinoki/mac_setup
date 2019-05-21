@@ -56,7 +56,7 @@ module.exports = {
   },
 
   plugins: [
-    "gitrocket",
+    "git-falcon9",
     "hypercwd",
     "hyperpower",
     "hyperterm-tabs",
@@ -69,6 +69,7 @@ module.exports = {
     "hyper-statusline",
     "hyper-tab-icons-plus",
     "verminal",
+    "hyper-pokemon"
   ],
 
   localPlugins: [],
