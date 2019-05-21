@@ -53,7 +53,6 @@ module.exports = {
       moveLeft: ['command', 'left'],
       moveLeft: ['command', 'right'],
     },
-    pokemon: 'Legendary',
     poketab: 'true',
     unibody: 'false'
   },
@@ -72,7 +71,8 @@ module.exports = {
     "hyper-statusline",
     "hyper-tab-icons-plus",
     "verminal",
-    "hyper-pokemon"
+    "hyper-star-wars",
+    "hyper-pokemon",
   ],
 
   localPlugins: [],
