@@ -5,6 +5,7 @@ PATH+=:$N_PREFIX/bin
 
 ### ALIAS
 alias RELOAD='source ~/.zshrc'
+alias CHANGE='code ~/.zshrc'
 
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
