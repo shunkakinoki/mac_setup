@@ -10,7 +10,6 @@ export LC_ALL="en_US.UTF-8"
 export DISPLAY=":0.0"
 export EDITOR="code --new-window --wait"
 
-export GOPATH=$HOME/Code/go
 export N_PREFIX="$HOME/.n"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
@@ -31,33 +30,10 @@ export DISABLE_UPDATE_PROMPT=true
 # zsh builtin to re-run last line. dangerous. do not want. use `!!`.
 disable r
 
-source $ZSH/oh-my-zsh.sh
-
-plugins=(git zsh-autosuggestions yarn-autocompletions)
-
-ssh-add ~/.ssh/id_rsa &>/dev/null
-
-. `brew --prefix`/etc/profile.d/z.sh
-
-eval "$(rbenv init -)"
-
 chmod +x ~/.mac_setup/scripts/*.sh
 
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
 for script in ~/.mac_setup/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
-[ -f /Users/casey/.travis/travis.sh ] && source /Users/casey/.travis/travis.sh
-
-curl -s https://api.github.com/zen | sed 's/\n//'
-
-# when c --calendar_today_style="bold,fgyellow"
-when w --no-header --no-paging
-
 autoload -U promptinit; promptinit
 prompt spaceship
-
-
-source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
-
-source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
