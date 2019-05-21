@@ -50,7 +50,7 @@ module.exports = {
     webGLRenderer: true,
     /// TODO
     hyperTabsMove: {
-      moveLeft: 'ctrl+alt+shift+left',
+      moveLeft: 'command+shift+left',
     },
     StarWarsTheme: {
       character: 'emperor', // Define your favorite star wars character
