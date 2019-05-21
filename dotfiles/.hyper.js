@@ -53,6 +53,7 @@ module.exports = {
       moveLeft: ['command', 'left'],
       moveLeft: ['command', 'right'],
     },
+    pokemon: 'Legendary',
     poketab: 'true'
   },
 
