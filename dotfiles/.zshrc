@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users
 PATH+=:$N_PREFIX/bin
 
 ### ALIAS
-alias RELOAD='source ~/.zshrc
+alias RELOAD='source ~/.zshrc'
 
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
