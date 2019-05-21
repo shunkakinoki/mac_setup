@@ -52,7 +52,8 @@ module.exports = {
     hyperTabsMove: {
       moveLeft: ['command', 'left'],
       moveLeft: ['command', 'right'],
-    }
+    },
+    poketab: 'true'
   },
 
   plugins: [
