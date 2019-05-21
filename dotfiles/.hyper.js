@@ -50,14 +50,26 @@ module.exports = {
     webGLRenderer: true,
     /// TODO
     hyperTabsMove: {
-      moveLeft: ['command', 'left'],
-      moveLeft: ['command', 'right'],
-    }
+      moveLeft: 'command+shift+left',
+      moveRight: 'command+shift+right',
+
+    },
+
+    /// DEPRECATED
+    StarWarsTheme: {
+      character: 'emperor',
+      lightsaber: 'true',
+      unibody: 'false',
+      avatar: 'true'
+    },
+    poketab: 'true',
+    unibody: 'false'
   },
 
   plugins: [
-    "gitrocket",
+    "git-falcon9",
     "hypercwd",
+    "hyperocean",
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
@@ -69,6 +81,10 @@ module.exports = {
     "hyper-statusline",
     "hyper-tab-icons-plus",
     "verminal",
+
+    /// DEPRECATED
+    //  "hyper-star-wars",
+    // "hyper-pokemon",
   ],
 
   localPlugins: [],
