@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     updateChannel: 'stable',
-    fontSize: 12,
+    fontSize: 16,
     fontFamily: '"Fira Code", monospace',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
