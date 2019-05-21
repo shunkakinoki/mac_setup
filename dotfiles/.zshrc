@@ -54,7 +54,6 @@ alias TXWORK="tmux new-session \; \
     split-window -h -p \; \
     send-keys 'neofetch' C-m \; \
     select-pane -t 1 \; \
-    split-window -v \; \
     send-keys 'ls' C-m \;"
 
 ### ZSH AUTO SUGGESTIONS
