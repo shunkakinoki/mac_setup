@@ -12,7 +12,7 @@ Built with:
 ### Install
 
 - Fork
-- Change "caseyWebb" to your GitHub username in [`install.sh`](./install.sh)
+- Change "shunkakinoki" to your GitHub username in [`install.sh`](./install.sh)
 - Edit [`dotfiles/.gitconfig`](./dotfiles/.gitconfig)
 - `curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash`
 
