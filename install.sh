@@ -11,7 +11,7 @@ if ! command -v git > /dev/null 2>&1; then
 fi
 
 if [ ! -d ~/.laptop ]; then
-  git clone https://github.com/caseyWebb/laptop.git ~/.laptop
+  git clone https://github.com/shunkakinoki/mac_setup.git ~/.laptop
 fi
 
 chmod +x ~/.laptop/scripts/*
