@@ -47,4 +47,4 @@ autoload -U promptinit; promptinit
 prompt spaceship
 
 ### ZSH SYNTAX HIGHLIGHTING
-# source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
