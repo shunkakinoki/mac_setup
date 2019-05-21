@@ -52,7 +52,7 @@ alias TXWORK="tmux new -s WORK \; \
     send-keys 'gotop' C-m \; \
     split-window -h \; \
     send-keys 'neofetch' C-m \; \
-    split-window -h \; \
+    split-window -v \; \
     "
 
 ### ZSH AUTO SUGGESTIONS
