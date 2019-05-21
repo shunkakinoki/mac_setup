@@ -53,6 +53,7 @@ module.exports = {
   plugins: [
     "hypercwd",
     "hyperpower",
+    "hyperterm-tabs",
     "hyper-broadcast",
     "hyper-custom-touchbar",
     "hyper-opacity",
