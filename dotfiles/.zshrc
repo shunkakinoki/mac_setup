@@ -48,7 +48,7 @@ autoload -U promptinit; promptinit
 prompt spaceship
 
 ### TMUX
-alias TXWORK="tmux new-session \; \
+alias TXWORK="tmux new-session --name WORK\; \
     send-keys 'gotop' C-m \; \
     split-window -v -p \; \
     split-window -h -p \; \
