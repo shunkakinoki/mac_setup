@@ -18,9 +18,6 @@ cask "slack"
 cask "spotify"
 cast "ticktick"
 cask "visual-studio-code"
-cask "caskroom/fonts/font-fira-code"
-cask "caskroom/fonts/font-fira-mono-for-powerline"
-cask "caskroom/fonts/font-inconsolata"
 mas "Motion", id:434290957
 mas "Xcode", id:497799835
 mas "FinalCut", id:424389933
