@@ -51,12 +51,16 @@ module.exports = {
     /// TODO
     hyperTabsMove: {
       moveLeft: 'command+shift+left',
+      moveRight: 'command+shift+right',
+
     },
+
+    /// DEPRECATED
     StarWarsTheme: {
-      character: 'emperor', // Define your favorite star wars character
-      lightsaber: 'true', // Activate your theme's lightsaber mode
-      unibody: 'false', // Define the color of the Hyper window header
-      avatar: 'true' // Activate your theme's background avatar
+      character: 'emperor',
+      lightsaber: 'true',
+      unibody: 'false',
+      avatar: 'true'
     },
     poketab: 'true',
     unibody: 'false'
