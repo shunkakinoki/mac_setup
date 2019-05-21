@@ -1,7 +1,7 @@
 # mac_setup
 
-My implementation of Macintosh Setup.
-Original code [here](https://github.com/caseyWebb/laptop)
+My implementation of Macintosh Setup.  
+Original code [https://github.com/caseyWebb/laptop](https://github.com/caseyWebb/laptop)
 
 Development (and more) environment setup for MacOS. Automatically syncs to make cloning your machine a breeze.
 
