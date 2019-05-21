@@ -16,7 +16,7 @@ cask "google-chrome"
 cask "hyper"
 cask "slack"
 cask "spotify"
-cast "ticktick"
+cask "ticktick"
 cask "visual-studio-code"
 mas "Motion", id:434290957
 mas "Xcode", id:497799835
