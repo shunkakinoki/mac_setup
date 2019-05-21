@@ -16,6 +16,7 @@ export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_SHOW=true
 export SPACESHIP_DIR_SHOW=false
 export SPACESHIP_TIME_FORMAT=%D{%Y'/'%m'/'%d'/'%a' | '}%*
+export SPACESHIP_CHAR_SYMBOL=$
 
 autoload -U promptinit; promptinit
 prompt spaceship
