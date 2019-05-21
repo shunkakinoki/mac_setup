@@ -69,7 +69,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hypercwd",
-    "hyperfullscreen",
+    // "hyperfullscreen",
     "hyperocean",
     "hyperpower",
     "hyperterm-tabs",
