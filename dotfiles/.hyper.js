@@ -48,6 +48,10 @@ module.exports = {
     quickEdit: false,
     macOptionSelectionMode: 'vertical',
     webGLRenderer: true,
+    hyperTabsMove: {
+      moveLeft: 'command+shift+left',
+      moveRight: ['command+]', 'r i g h t']
+    }
   },
 
   plugins: [
