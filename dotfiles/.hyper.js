@@ -54,7 +54,7 @@ module.exports = {
       moveLeft: ['command', 'right'],
     },
     StarWarsTheme: {
-      character: 'finn-stormtrooper', // Define your favorite star wars character
+      character: 'emperor', // Define your favorite star wars character
       lightsaber: 'true', // Activate your theme's lightsaber mode
       unibody: 'false', // Define the color of the Hyper window header
       avatar: 'true' // Activate your theme's background avatar
@@ -66,6 +66,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hypercwd",
+    "hyperocean",
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
@@ -76,11 +77,10 @@ module.exports = {
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
-    "verminal",
-    "hyper-star-wars",
-
     /// DEPRECATED
+    //  "hyper-star-wars",
     // "hyper-pokemon",
+    "verminal",
   ],
 
   localPlugins: [],
