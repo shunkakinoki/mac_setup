@@ -1,47 +1,26 @@
 module.exports = {
   config: {
     updateChannel: 'stable',
-
     fontSize: 12,
-
     fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
-
     fontWeight: 'normal',
-
     fontWeightBold: 'bold',
-
     lineHeight: 1,
-
     letterSpacing: 0,
-
     cursorColor: 'rgba(248,28,229,0.8)',
-
     cursorAccentColor: '#000',
-
     cursorShape: 'BEAM',
-
     cursorBlink: true,
-
     foregroundColor: '#fff',
-
     backgroundColor: '#000',
-
     selectionColor: 'rgba(248,28,229,0.3)',
-
     borderColor: '#333',
-
     css: '',
-
     termCSS: '',
-
     bell: false,
-
     showHamburgerMenu: 'true',
-
     showWindowControls: '',
-
     padding: '12px 14px',
-
     colors: {
       black: '#000000',
       red: '#C51E14',
@@ -60,23 +39,14 @@ module.exports = {
       lightCyan: '#68FDFE',
       lightWhite: '#FFFFFF',
     },
-
     shell: 'zsh',
-
     shellArgs: ['--login'],
-
     env: {},
-
     bell: 'SOUND',
-
     copyOnSelect: false,
-
     defaultSSHApp: true,
-
     quickEdit: false,
-
     macOptionSelectionMode: 'vertical',
-
     webGLRenderer: true,
   },
 
