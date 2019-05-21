@@ -22,10 +22,7 @@ Built with:
 
 **NOTE:** If you don't like curl-ing into bash, you can install git and clone this repo, then run `./install.sh`.
 
-
-### How does it work?
-
-#### Architecture
+### Architecture
 
 There are 4 types of [scripts](./scripts), designated by the first digit:
 
@@ -35,9 +32,3 @@ There are 4 types of [scripts](./scripts), designated by the first digit:
 | 1     | system configuration          |
 | 2     | environment configuration     |
 | 3     | chores                        |
-
-- Install and system configuration scripts are ran once by the [main install script](./install.sh)
-- Environment configuration scripts are ran _in the current context_ each time a shell is opened
-- Chores are ran _in a spawned process ([screen][])_ each time a shell is opened
-
-For install and configuration scripts (system and environment) the second digit allows controlling the order of execution.
