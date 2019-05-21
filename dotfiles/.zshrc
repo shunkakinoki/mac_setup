@@ -1,3 +1,10 @@
+### INITIALIZATION
+if [ -z "$DEFAULT" ]
+then
+    tmux attach -t DEFAULT || tmux new -s DEFAULT
+fi
+
+
 ### PATHS
 export N_PREFIX="$HOME/.n"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
