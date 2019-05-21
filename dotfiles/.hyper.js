@@ -54,7 +54,7 @@ module.exports = {
       moveLeft: ['command', 'right'],
     },
     StarWarsTheme: {
-      character: 'han-solo-older', // Define your favorite star wars character
+      character: 'luke-skywalker', // Define your favorite star wars character
       lightsaber: 'true', // Activate your theme's lightsaber mode
       unibody: 'false', // Define the color of the Hyper window header
       avatar: 'true' // Activate your theme's background avatar
