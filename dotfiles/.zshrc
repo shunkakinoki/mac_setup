@@ -4,6 +4,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users
 PATH+=:$N_PREFIX/bin
 
 ### ALIAS
+alias TMWORK='bash ~/.mac_setup/utils/work_tmux.sh'
 alias RELOAD='source ~/.zshrc'
 alias CHANGE='code ~/.zshrc'
 
