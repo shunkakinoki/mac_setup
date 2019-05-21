@@ -46,5 +46,8 @@ char
 autoload -U promptinit; promptinit
 prompt spaceship
 
+### ZSH AUTO SUGGESTIONS
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 ### ZSH SYNTAX HIGHLIGHTING
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
