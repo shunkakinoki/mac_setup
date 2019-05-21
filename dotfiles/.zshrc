@@ -15,7 +15,7 @@ for script in ~/.mac_setup/scripts/30-*.sh; do screen -dm -S Shared $script; don
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_SHOW=true
 export SPACESHIP_DIR_SHOW=false
-export SPACESHIP_TIME_FORMAT=%D{%Y'/'%m'/'%d'/'%a}%*
+export SPACESHIP_TIME_FORMAT=%D{%Y'/'%m'/'%d'/'%a'|'}%*
 
 autoload -U promptinit; promptinit
 prompt spaceship
