@@ -19,6 +19,7 @@ export SPACESHIP_TIME_FORMAT=%D{%Y'/'%m'/'%d'/'%a' | '}%*
 export SPACESHIP_CHAR_SYMBOL=$
 export SPACESHIP_USER_SHOW=always
 export SPACESHIP_USER_PREFIX='*OBLITERATE THE GALAXY* '
+export SPACESHIP_USER_COLOR=blue
 
 autoload -U promptinit; promptinit
 prompt spaceship
