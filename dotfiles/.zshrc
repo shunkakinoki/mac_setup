@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users
 PATH+=:$N_PREFIX/bin
 
 ### ALIAS
-alias RESET='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
+alias RESET_MACSETUP='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
 alias RELOAD='source ~/.zshrc'
 alias CHANGE='code ~/.zshrc'
 
