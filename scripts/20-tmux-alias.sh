@@ -7,4 +7,6 @@ alias TXDASH="tmux new -s DASH \; \
 
 alias TXKILLDASH="tmux kill-session -t DASH"
 
+alias TXLS="tmux ls"
+
 alias TXKILLALL="tmux kill-server"
