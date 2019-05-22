@@ -27,7 +27,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "cjbassi/gotop/gotop"
-brew "dart-lang/dart/dart", link: false
+brew "dart-lang/dart/dart"
 cask "evernote"
 cask "fastlane"
 cask "font-fira-code"
