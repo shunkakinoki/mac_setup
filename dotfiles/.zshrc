@@ -66,6 +66,7 @@ export SPACESHIP_DIR_PREFIX=
 export SPACESHIP_BATTERY_SHOW=always
 export SPACESHIP_PROMPT_ORDER=(
 battery
+wifi
 time
 user
 line_sep
