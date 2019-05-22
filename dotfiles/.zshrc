@@ -32,8 +32,7 @@ spaceship_wifi(){
 
     if [ "$airport" = "Off" ]; then
         local color='%F{yellow}'
-        # wifi_status=$("%{$color%}Wifi Off")
-        wifi_status=$("asdfadsf")
+        wifi_status=$("%{$color%}Wifi Off")
     else
         local ssid=$(echo $output | grep ' SSID' | awk -F': ' '{print $2}')
         local speed=$(echo $output | grep 'lastTxRate' | awk -F': ' '{print $2}')
@@ -42,8 +41,7 @@ spaceship_wifi(){
         [[ $speed -gt 300 ]] && color='%F{green}'
         [[ $speed -lt 100 ]] && color='%F{red}'
 
-        # wifi_status=$("%{$color%}\uF1EB $speed Mb/s%{%f%}")
-        wifi_status=$("%asfdasdfa")
+        wifi_status=$("%{$color%}\uF1EB $speed Mb/s%{%f%}")
     fi
     [[ -z $wifi_status ]] && return
 
@@ -55,6 +53,7 @@ spaceship_wifi(){
 }
 
 ### SPACESHIP PROMPT
+export SPACESHIP_WIFI_SHOW=true
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_PREFIX='| '
 export SPACESHIP_TIME_SHOW=true
