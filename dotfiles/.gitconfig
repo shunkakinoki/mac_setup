@@ -1,3 +1,6 @@
 [user]
-	name = Shun Kakinoki
-	email = shunkakinoki@gmail.com
+    name = Shun Kakinoki
+    email = shunkakinoki@gmail.com
+
+[include]
+    path = ~/.gitalias.txt
