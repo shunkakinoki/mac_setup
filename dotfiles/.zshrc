@@ -28,7 +28,7 @@ spaceship_wifi(){
     local 'wifi_status'
 
     local output=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -I) 
-    local airport=$($output | grep 'AirPort' | awk -F': ' '{print $2}')
+    local airport=$(echo $output | grep 'AirPort' | awk -F': ' '{print $2}')
 
     if [ "$airport" = "Off" ]; then
         local color='%F{yellow}'
@@ -53,7 +53,6 @@ spaceship_wifi(){
 }
 
 ### SPACESHIP PROMPT
-export SPACESHIP_WIFI_SHOW=true
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_PREFIX='| '
 export SPACESHIP_TIME_SHOW=true
@@ -87,7 +86,6 @@ char
 
 autoload -U promptinit; promptinit
 prompt spaceship
-
 
 ### TMUX
 alias TXWORK="tmux new -s WORK \; \
