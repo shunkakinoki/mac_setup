@@ -48,7 +48,7 @@ spaceship_wifi(){
     spaceship::section \
     "$SPACESHIP_WIFI_COLOR" \
     "$SPACESHIP_WIFI_PREFIX" \
-    "$SPACESHIP_WIFI_SYMBOL$wifi_status" \
+    "${SPACESHIP_WIFI_SYMBOL}${wifi_status}" \
     "$SPACESHIP_WIFI_SUFFIX"
 }
 
