@@ -7,7 +7,7 @@ if [[ ! -a ~/.gitconfig ]]; then
 fi
 
 if [[ ! -a ~/.gitalias.txt ]]; then
-  echo "Linking .gitalias.txt"
+  echo "Curling .gitalias.txt"
   curl -O https://raw.githubusercontent.com/GitAlias/gitalias/master/gitalias.txt
   mv gitalias.txt ~/.gitalias.txt
   echo "Done."
