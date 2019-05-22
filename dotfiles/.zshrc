@@ -4,8 +4,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users
 PATH+=:$N_PREFIX/bin
 
 ### ALIAS
-alias RESET='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
-alias TMWORK='bash ~/.mac_setup/utils/work_tmux.sh'
+alias RESET_MACSETUP='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
 alias RELOAD='source ~/.zshrc'
 alias CHANGE='code ~/.zshrc'
 
@@ -18,7 +17,7 @@ for script in ~/.mac_setup/scripts/30-*.sh; do screen -dm -S Shared $script; don
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_PREFIX='| '
 export SPACESHIP_TIME_SHOW=true
-export SPACESHIP_DIR_SHOW=false
+export SPACESHIP_DIR_SHOW=true
 export SPACESHIP_TIME_FORMAT=%D{%Y'/'%m'/'%d'/'%a' | '}%*
 export SPACESHIP_CHAR_SYMBOL=$
 export SPACESHIP_USER_SHOW=always
@@ -47,6 +46,13 @@ char
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
+### TMUX
+alias TXWORK="tmux new -s WORK \; \
+    send-keys 'gotop' C-m \; \
+    split-window -h \; \
+    send-keys 'neofetch' C-m \; \
+    split-window -v \;"
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
