@@ -38,6 +38,7 @@ spaceship_wifi(){
         local ssid=$(echo $output | grep ' SSID' | awk -F': ' '{print $2}')
         local speed=$(echo $output | grep 'lastTxRate' | awk -F': ' '{print $2}')
         local color='%F{yellow}'
+        echo SDFASDFADFADF
 
         [[ $speed -gt 300 ]] && color='%F{green}'
         [[ $speed -lt 100 ]] && color='%F{red}'
