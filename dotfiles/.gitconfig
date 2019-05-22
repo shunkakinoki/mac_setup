@@ -6,6 +6,5 @@
     path = ~/.gitalias.txt
     
 [alias]
-
     cme = commit -m "wip" --allow-empty
     bd = branch -d
