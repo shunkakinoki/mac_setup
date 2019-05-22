@@ -13,6 +13,45 @@ chmod +x ~/.mac_setup/scripts/*.sh
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
 for script in ~/.mac_setup/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
+### WIFI SIGNAL
+SPACESHIP_WIFI_SHOW="${SPACESHIP_WIFI_SHOW=true}"
+SPACESHIP_WIFI_PREFIX="${SPACESHIP_WIFI_PREFIX="$SPACESHIP_PROMPT_DEFAULT_PREFIX"}"
+SPACESHIP_WIFI_SUFFIX="${SPACESHIP_WIFI_SUFFIX="$SPACESHIP_PROMPT_DEFAULT_SUFFIX"}"
+SPACESHIP_WIFI_SYMBOL="${SPACESHIP_WIFI_SYMBOL="WIFI "}"
+SPACESHIP_WIFI_COLOR="${SPACESHIP_WIFI_COLOR="white"}"
+
+zsh_wifi_signal(){
+    [[ $SPACESHIP_WIFI_SHOW == false ]] && return
+
+    spaceship::exists wifi || return
+
+    local 'wifi_status'
+
+    local output=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -I) 
+    local airport=$(echo $output | grep 'AirPort' | awk -F': ' '{print $2}')
+
+    if [ "$airport" = "Off" ]; then
+        local color='%F{yellow}'
+        wifi_status=$("%{$color%}Wifi Off")
+    else
+        local ssid=$(echo $output | grep ' SSID' | awk -F': ' '{print $2}')
+        local speed=$(echo $output | grep 'lastTxRate' | awk -F': ' '{print $2}')
+        local color='%F{yellow}'
+
+        [[ $speed -gt 300 ]] && color='%F{green}'
+        [[ $speed -lt 100 ]] && color='%F{red}'
+
+        wifi_status=$("%{$color%}\uF1EB $speed Mb/s%{%f%}")
+    fi
+    [[ -z $wifi_status ]] && return
+
+    spaceship::section \
+    "$SPACESHIP_WIFI_COLOR" \
+    "$SPACESHIP_WIFI_PREFIX" \
+    "$SPACESHIP_WIFI_SYMBOL$wifi_status" \
+    "$SPACESHIP_WIFI_SUFFIX"
+}
+
 ### SPACESHIP PROMPT
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 export SPACESHIP_TIME_PREFIX='| '
@@ -46,6 +85,7 @@ char
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
 
 ### TMUX
 alias TXWORK="tmux new -s WORK \; \
