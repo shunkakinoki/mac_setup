@@ -3,11 +3,6 @@ export N_PREFIX="$HOME/.n"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
 PATH+=:$N_PREFIX/bin
 
-### ALIAS
-alias RESET_MACSETUP='rm -rf ~/.mac_setup && curl https://raw.githubusercontent.com/shunkakinoki/mac_setup/master/install.sh | bash'
-alias RELOAD='source ~/.zshrc'
-alias CHANGE='code ~/.zshrc'
-
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
