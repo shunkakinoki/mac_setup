@@ -32,7 +32,8 @@ spaceship_wifi(){
 
     if [ "$airport" = "Off" ]; then
         local color='%F{yellow}'
-        wifi_status=$("%{$color%}Wifi Off")
+        # wifi_status=$("%{$color%}Wifi Off")
+        wifi_status=$("asdfadsf")
     else
         local ssid=$(echo $output | grep ' SSID' | awk -F': ' '{print $2}')
         local speed=$(echo $output | grep 'lastTxRate' | awk -F': ' '{print $2}')
