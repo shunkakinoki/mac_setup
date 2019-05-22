@@ -1,6 +1,6 @@
 ### PATHS
 export N_PREFIX="$HOME/.n"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shunkakinoki/n/bin"
 PATH+=:$N_PREFIX/bin
 
 ### MAC SETUP SCRIPTS
