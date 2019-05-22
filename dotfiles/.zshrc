@@ -42,7 +42,8 @@ spaceship_wifi(){
         [[ $speed -gt 300 ]] && color='%F{green}'
         [[ $speed -lt 100 ]] && color='%F{red}'
 
-        wifi_status=$("%{$color%}\uF1EB $speed Mb/s%{%f%}")
+        # wifi_status=$("%{$color%}\uF1EB $speed Mb/s%{%f%}")
+        wifi_status=$("%asfdasdfa")
     fi
     [[ -z $wifi_status ]] && return
 
