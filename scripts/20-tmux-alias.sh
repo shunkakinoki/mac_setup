@@ -4,8 +4,7 @@ alias TXDASH="tmux new -s DASH \; \
     split-window -h \; \
     send-keys 'neofetch' C-m \; \
     split-window -v \;
-    send-keys 'htop' C-m \; \
-    "
+    send-keys 'htop' C-m \;"
 
 alias TXKILLDASH="tmux kill-session -t DASH"
 
