@@ -1,8 +1,9 @@
 ### PATHS
-export N_PREFIX="$HOME/.n"
+export HOME="$HOME"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shunkakinoki/n/bin"
-PATH+=:$N_PREFIX/bin
-PATH+="$HOME/flutter/bin"
+PATH+=:$HOME/.n/bin
+PATH+=:$HOME/flutter/bin
+
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
