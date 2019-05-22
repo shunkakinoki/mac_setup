@@ -25,7 +25,7 @@ spaceship_wifi(){
 
     spaceship::exists wifi || return
 
-    local wifi_status
+    local wifi_status='safdadfadf'
 
     local output=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -I) 
     local airport=$(echo $output | grep 'AirPort' | awk -F': ' '{print $2}')
