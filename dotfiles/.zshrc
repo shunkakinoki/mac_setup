@@ -20,7 +20,7 @@ SPACESHIP_WIFI_SUFFIX="${SPACESHIP_WIFI_SUFFIX="$SPACESHIP_PROMPT_DEFAULT_SUFFIX
 SPACESHIP_WIFI_SYMBOL="${SPACESHIP_WIFI_SYMBOL="WIFI "}"
 SPACESHIP_WIFI_COLOR="${SPACESHIP_WIFI_COLOR="white"}"
 
-zsh_wifi_signal(){
+spaceship_wifi(){
     [[ $SPACESHIP_WIFI_SHOW == false ]] && return
 
     spaceship::exists wifi || return
