@@ -6,9 +6,8 @@ if [[ ! -a ~/.gitconfig ]]; then
   echo "Done."
 fi
 
-if [[ ! -a ~/.gitalias.txt ]]; then
-  echo "Curling .gitalias.txt"
-  curl -O https://raw.githubusercontent.com/GitAlias/gitalias/master/gitalias.txt
-  mv gitalias.txt ~/.gitalias.txt
-  echo "Done."
-fi
+echo "Curling .gitalias.txt"
+rm -f ~/.gitalias.txt
+curl -O https://raw.githubusercontent.com/GitAlias/gitalias/master/gitalias.txt
+mv gitalias.txt ~/.gitalias.txt
+echo "Done."
