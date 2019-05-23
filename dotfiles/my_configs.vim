@@ -1,1 +1,1 @@
-imap jj <Esc>
+inoremap jj <Esc>
