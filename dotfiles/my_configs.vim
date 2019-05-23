@@ -1,1 +1,1 @@
-inoremap <silent> jj <ESC>
+imap jj <Esc>
