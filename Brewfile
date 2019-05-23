@@ -28,6 +28,15 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "cjbassi/gotop/gotop"
 brew "dart-lang/dart/dart"
+cask "evernote"
+cask "fastlane"
+cask "font-fira-code"
+cask "google-chrome"
+cask "hyper"
+cask "slack"
+cask "spotify"
+cask "ticktick"
+cask "visual-studio-code"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "Keynote", id: 409183694
