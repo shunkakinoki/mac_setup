@@ -1,11 +1,7 @@
+#!/bin/bash
+
 ### TMUX ALIAS
-function TXDASH {
-    tmux new -s DASH \;
-    send-keys 'gotop' C-m \;
-    split-window -h \;
-    send-keys 'neofetch' C-m \;
-    split-window -v \;
-}
+alias TXDASH="source ~/.mac_setup/scripts/50-tmux-dash.sh"
 
 alias TXKILLDASH="tmux kill-session -t DASH"
 
