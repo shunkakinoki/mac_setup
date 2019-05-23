@@ -8,5 +8,5 @@ echo "Done."
 
 echo "Configuring vim myconfig"
 rm -f ~/.vim_runtime/my_configs.vim
-ln -s ~/.mac_setup/dotfiles/.my_configs.vim ~/.vim_runtime/my_configs.vim
+cp ~/.mac_setup/dotfiles/.my_configs.vim ~/.vim_runtime/my_configs.vim
 echo "Done."
