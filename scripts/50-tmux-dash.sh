@@ -14,7 +14,7 @@ then
     tmux split-window -h -t ${SESSION_NAME}:0
     tmux send-keys -t ${SESSION_NAME} 'neofetch' C-m
     tmux split-window -v -t ${SESSION_NAME}:0
-    tmux send-keys -t ${SESSION_NAME} 'watch -t -n1 "date"' C-m
+    tmux clock-mode -t ${SESSION_NAME}:0
 
     # Start out on the first window when we attach
     tmux select-window -t ${SESSION_NAME}:0
