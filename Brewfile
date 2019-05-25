@@ -10,6 +10,7 @@ tap "homebrew/services"
 brew "cocoapods"
 brew "git"
 brew "git-lfs"
+brew "go"
 brew "htop"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
