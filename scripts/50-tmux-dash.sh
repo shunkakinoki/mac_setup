@@ -10,7 +10,7 @@ then
     tmux new-session -s ${SESSION_NAME} -d
 
     # First window (0) -- vim and console
-    tmux send-keys -t ${SESSION_NAME} 'gotop' C-m
+    tmux send-keys -t ${SESSION_NAME} 'gotop -b' C-m
     tmux split-window -h -t ${SESSION_NAME}:0
     tmux send-keys -t ${SESSION_NAME} 'neofetch' C-m
     tmux split-window -v -t ${SESSION_NAME}:0
