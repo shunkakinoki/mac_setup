@@ -17,6 +17,7 @@ then
     tmux clock-mode -t ${SESSION_NAME}:0
 
     # Start out on the first window when we attach
+    tmux rename-window "DASHBOARD" -t ${SESSION_NAME}:0
     tmux select-window -t ${SESSION_NAME}:0
 fi
 tmux attach -t ${SESSION_NAME}
