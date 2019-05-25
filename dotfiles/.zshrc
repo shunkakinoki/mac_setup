@@ -2,8 +2,9 @@
 export HOME="$HOME"
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 export PATH="/usr/local/miniconda3/bin:$PATH"
-export GOROOT=$HOME/go
-export GOPATH=$HOME/go/goroot
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 
