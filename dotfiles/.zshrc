@@ -1,7 +1,7 @@
 ### PATHS
 export HOME="$HOME"
-export PATH="/usr/local/miniconda3/bin:$PATH"
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/miniconda3/bin:$PATH"
 PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 
