@@ -1,7 +1,7 @@
 ### PATHS
 export HOME="$HOME"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local/miniconda3/bin"
-PATH+=:$HOME/.n/bin
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/miniconda3/bin"
+PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 
 ### MAC SETUP SCRIPTS
