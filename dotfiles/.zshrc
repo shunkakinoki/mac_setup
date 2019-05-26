@@ -7,7 +7,7 @@ PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 
 ### UNIQUE PATHS
-export GOPATH="/usr/local/bin/go"
+export GOPATH=$HOME/go
 
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
