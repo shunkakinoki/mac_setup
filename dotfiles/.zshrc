@@ -11,6 +11,10 @@ PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 PATH+=:$GOPATH/bin
 
+### CONDA SETUP
+. ${HOME}/miniconda3/etc/profile.d/conda.sh
+conda activate base
+
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
