@@ -52,7 +52,7 @@ prompt spaceship
 
 ### ZSH COMMANDS
 unset zle_bracketed_paste
-setopt  autocd autopushd pushdignoredups
+setopt autocd autopushd 
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
