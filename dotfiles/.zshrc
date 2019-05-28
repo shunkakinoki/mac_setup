@@ -9,6 +9,7 @@ export PATH="/usr/local/miniconda3/bin:$PATH"
 export PATH="/usr/local/bin/go:$PATH"
 PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
+PATH+=:$HOME/.fastlane/bin
 PATH+=:$GOPATH/bin
 
 ### MAC SETUP SCRIPTS
