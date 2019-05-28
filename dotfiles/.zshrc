@@ -1,6 +1,5 @@
 ### UNIQUE PATHS
 export GOPATH=$HOME/go
-export GOROOT=/usr/local/bin/go
 
 ### PATHS
 export HOME="$HOME"
