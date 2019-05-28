@@ -1,5 +1,6 @@
 ### UNIQUE PATHS
 export GOPATH=$HOME/.go
+export GOBIN=$HOME/bin
 
 ### PATHS
 export HOME="$HOME"
@@ -7,7 +8,6 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 export PATH="/usr/local/miniconda3/bin:$PATH"
 PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
-PATH+=:$GOPATH/bin
 
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
