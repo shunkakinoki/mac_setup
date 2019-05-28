@@ -1,6 +1,6 @@
 ### UNIQUE PATHS
 export GOPATH=$HOME/.go
-export GOBIN=$HOME/bin
+export GOBIN=$GOPATH/bin
 
 ### PATHS
 export HOME="$HOME"
