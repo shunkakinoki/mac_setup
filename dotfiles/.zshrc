@@ -50,6 +50,9 @@ char
 autoload -U promptinit; promptinit
 prompt spaceship
 
+### ZSH COMMANDS
+unset zle_bracketed_paste
+
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
