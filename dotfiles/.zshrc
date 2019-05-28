@@ -1,5 +1,5 @@
 ### UNIQUE PATHS
-export GOPATH=$HOME/go
+export GOPATH=$HOME/.go
 
 ### PATHS
 export HOME="$HOME"
