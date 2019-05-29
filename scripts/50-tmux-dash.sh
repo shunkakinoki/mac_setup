@@ -16,8 +16,12 @@ then
     tmux split-window -v -t ${SESSION_NAME}:0
     tmux clock-mode -t ${SESSION_NAME}:0
 
+    tmux new-window
+    tmux send-keys -t ${SESSION_NAME} 'watch -n30 "joplin sync"' C-m
+
     # Start out on the first window when we attach
     tmux rename-window -t ${SESSION_NAME}:0 DASHBOARD
+    tmux rename-window -t ${SESSION_NAME}:1 JOPLIN
     tmux select-window -t ${SESSION_NAME}:0
 fi
 tmux attach -t ${SESSION_NAME}
