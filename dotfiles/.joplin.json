@@ -4,12 +4,12 @@
         "command": "enter_command_line_mode"
     },
     {
-        "keys": ["h"],
+        "keys": ["l"],
         "type": "function",
         "command": "focus_next"
     },
     {
-        "keys": ["l"],
+        "keys": ["h"],
         "type": "function",
         "command": "focus_previous"
     },
