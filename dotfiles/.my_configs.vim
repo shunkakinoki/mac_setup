@@ -1,2 +1,2 @@
 inoremap jj <Esc>
-vmap '' :w !pbcopy<CR><CR>
+set clipboard=unnamed
