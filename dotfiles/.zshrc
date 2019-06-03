@@ -53,6 +53,8 @@ prompt spaceship
 ### ZSH COMMANDS
 unset zle_bracketed_paste
 setopt autocd
+__CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100
+export __CF_USER_TEXT_ENCODING
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
