@@ -16,7 +16,7 @@ brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
-brew "joplin"
+brew "joplin", link: false
 brew "mas"
 brew "neofetch"
 brew "r"
