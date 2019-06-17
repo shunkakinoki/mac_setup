@@ -20,9 +20,9 @@
         "breadcrumb.activeSelectionForeground": "#5C6BC0",
         "menu.selectionForeground": "#5C6BC0",
         "menubar.selectionForeground": "#5C6BC0",
-        "statusBar.background": "#5f0000",
-        "statusBar.noFolderBackground": "#5f0000",
-        "statusBar.debuggingBackground": "#5f0000"
+        "statusBar.background": "#102ccfbe",
+        "statusBar.noFolderBackground": "#102ccfbe",
+        "statusBar.debuggingBackground": "#102ccfbe"
     },
     "materialTheme.accent": "Indigo",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
@@ -145,7 +145,8 @@
     },
     "markdownlint.config": {
         "MD013": false,
-        "MD024": false
+        "MD024": false,
+        "MD041": false
     },
     "indenticator.inner.color.light": "#99",
     "trailing-spaces.liveMatching": false,
