@@ -8,7 +8,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "cocoapods"
-brew "git"
+brew "git", link: false
 brew "git-lfs"
 brew "go"
 brew "htop"
