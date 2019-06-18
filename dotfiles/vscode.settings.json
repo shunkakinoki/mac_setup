@@ -20,9 +20,9 @@
         "breadcrumb.activeSelectionForeground": "#5C6BC0",
         "menu.selectionForeground": "#5C6BC0",
         "menubar.selectionForeground": "#5C6BC0",
-        "statusBar.background": "#102ccfbe",
-        "statusBar.noFolderBackground": "#102ccfbe",
-        "statusBar.debuggingBackground": "#102ccfbe"
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000"
     },
     "materialTheme.accent": "Indigo",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
@@ -56,7 +56,6 @@
     "cSpell.enabledLanguageIds": [
         "markdown",
     ],
-    "markdownlint.run": "onSave",
     "cSpell.language": "en",
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
