@@ -1,6 +1,8 @@
 ### UNIQUE PATHS
 export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 
 ### PATHS
 export HOME="$HOME"
@@ -27,7 +29,6 @@ export SPACESHIP_USER_COLOR=blue
 export SPACESHIP_DIR_PREFIX=
 export SPACESHIP_BATTERY_SHOW=always
 export SPACESHIP_GIT_SYMBOL='▼ '
-export SPACESHIP_VENV_SHOW=true
 export SPACESHIP_PROMPT_ORDER=(
 battery
 time
@@ -49,6 +50,10 @@ char
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
+### PYENV COMMANDS
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 ### ZSH COMMANDS
 unset zle_bracketed_paste
