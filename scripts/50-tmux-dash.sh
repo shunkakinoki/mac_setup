@@ -23,5 +23,6 @@ then
     tmux rename-window -t ${SESSION_NAME}:0 DASHBOARD
     tmux rename-window -t ${SESSION_NAME}:1 JOPLIN
     tmux select-window -t ${SESSION_NAME}:0
+    tmux select-pane -t 0
 fi
 tmux attach -t ${SESSION_NAME}
