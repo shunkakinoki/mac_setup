@@ -1,4 +1,5 @@
 alias python='python3'
+
 ### UNIQUE PATHS
 export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
