@@ -54,6 +54,7 @@ prompt spaceship
 ### PYENV COMMANDS
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+export PIPENV_VENV_IN_PROJECT=true
 
 ### ZSH COMMANDS
 unset zle_bracketed_paste
