@@ -61,6 +61,7 @@ unset zle_bracketed_paste
 setopt autocd
 __CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100
 export __CF_USER_TEXT_ENCODING
+export ZSH_AUTOSUGGEST_STRATEGY=(history match_prev_cmd completion)
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
