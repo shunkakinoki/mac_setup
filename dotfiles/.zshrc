@@ -61,10 +61,12 @@ unset zle_bracketed_paste
 setopt autocd
 __CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100
 export __CF_USER_TEXT_ENCODING
-export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd)
 
 ### ZSH AUTO SUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd)
+export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+export ZSH_AUTOSUGGEST_USE_ASYNC=true
 
 ### ZSH SYNTAX HIGHLIGHTING
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
