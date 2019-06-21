@@ -62,12 +62,6 @@ setopt autocd
 __CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100
 export __CF_USER_TEXT_ENCODING
 
-# ### ZSH AUTO SUGGESTIONS
-# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# ### ZSH SYNTAX HIGHLIGHTING
-# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 ## ADDITIONAL CONFIG
 autoload -Uz compinit
 typeset -i updated_at=$(date +'%j' -r ~/.zcompdump 2>/dev/null || stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)
@@ -78,31 +72,32 @@ else
 fi
 zmodload -i zsh/complist
 
-# Save history so we get auto suggestions
+# HISTORY OPTIONS
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
-# Options
-setopt auto_cd # cd by typing directory name if it's not a command
-setopt auto_list # automatically list choices on ambiguous completion
-setopt auto_menu # automatically use menu completion
-setopt always_to_end # move cursor to end if word had one match
-setopt hist_ignore_all_dups # remove older duplicate entries from history
-setopt hist_reduce_blanks # remove superfluous blanks from history items
-setopt inc_append_history # save history entries as soon as they are entered
-setopt share_history # share history between different instances
-setopt correct_all # autocorrect commands
-setopt interactive_comments # allow comments in interactive shells
+# SETOPT OPTIONS
+setopt auto_cd
+setopt auto_list 
+setopt auto_menu
+setopt always_to_end
+setopt hist_ignore_all_dups
+setopt hist_reduce_blanks
+setopt inc_append_history
+setopt share_history
+setopt correct_all
+setopt interactive_comments
 
-# Improve autocompletion style
-zstyle ':completion:*' menu select # select completions with arrow keys
-zstyle ':completion:*' group-name '' # group results by category
-zstyle ':completion:::::' completer _expand _complete _ignored _approximate # enable approximate matches for completion
+# IMPROVE AUTOCOMPLETION STYLE
+zstyle ':completion:*' menu select
+zstyle ':completion:*' group-name ''
+zstyle ':completion:::::' completer _expand _complete _ignored _approximate
 
-# Load antibody plugin manager
+# LOAD ANTIBODY PLUGIN MANAGER
 source <(antibody init)
-# Plugins
+
+# INSTALL PLUGINS
 antibody bundle zdharma/fast-syntax-highlighting
 antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-history-substring-search
