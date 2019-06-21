@@ -62,11 +62,11 @@ setopt autocd
 __CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100
 export __CF_USER_TEXT_ENCODING
 
-### ZSH AUTO SUGGESTIONS
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# ### ZSH AUTO SUGGESTIONS
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-### ZSH SYNTAX HIGHLIGHTING
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# ### ZSH SYNTAX HIGHLIGHTING
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## ADDITIONAL CONFIG
 autoload -Uz compinit
@@ -99,3 +99,12 @@ setopt interactive_comments # allow comments in interactive shells
 zstyle ':completion:*' menu select # select completions with arrow keys
 zstyle ':completion:*' group-name '' # group results by category
 zstyle ':completion:::::' completer _expand _complete _ignored _approximate # enable approximate matches for completion
+
+# Load antibody plugin manager
+source <(antibody init)
+# Plugins
+antibody bundle zdharma/fast-syntax-highlighting
+antibody bundle zsh-users/zsh-autosuggestions
+antibody bundle zsh-users/zsh-history-substring-search
+antibody bundle zsh-users/zsh-completions
+antibody bundle marzocchi/zsh-notify
