@@ -1,9 +1,9 @@
 {
     "sync.gist": "2b8308edcf1e12143c466668e186b625",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#102ccfbe",
-        "statusBar.noFolderBackground": "#102ccfbe",
-        "statusBar.debuggingBackground": "#102ccfbe"
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000"
     },
     "sync.autoUpload": true,
     "vim.statusBarColorControl": true,
