@@ -1,66 +1,92 @@
 {
-    "sync.gist": "2b8308edcf1e12143c466668e186b625",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#102ccfbe",
-        "statusBar.noFolderBackground": "#102ccfbe",
-        "statusBar.debuggingBackground": "#102ccfbe"
-    },
+    /// SYNC
+    "sync.gist": "5f0caff0499bff7fab2beb86db649b27",
     "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "sync.quietSync": true,
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#5C6BC0",
+        "list.activeSelectionForeground": "#5C6BC0",
+        "list.inactiveSelectionForeground": "#5C6BC0",
+        "list.highlightForeground": "#5C6BC0",
+        "scrollbarSlider.activeBackground": "#5C6BC050",
+        "editorSuggestWidget.highlightForeground": "#5C6BC0",
+        "textLink.foreground": "#5C6BC0",
+        "progressBar.background": "#5C6BC0",
+        "pickerGroup.foreground": "#5C6BC0",
+        "tab.activeBorder": "#5C6BC0",
+        "notificationLink.foreground": "#5C6BC0",
+        "editorWidget.resizeBorder": "#5C6BC0",
+        "editorWidget.border": "#5C6BC0",
+        "settings.modifiedItemIndicator": "#5C6BC0",
+        "settings.headerForeground": "#5C6BC0",
+        "panelTitle.activeBorder": "#5C6BC0",
+        "breadcrumb.activeSelectionForeground": "#5C6BC0",
+        "menu.selectionForeground": "#5C6BC0",
+        "menubar.selectionForeground": "#5C6BC0",
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000"
+    },
+    /// THEME
+    "materialTheme.accent": "Indigo",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.feedback.visible": false,
+    /// VIM
     "vim.statusBarColorControl": true,
     "vim.insertModeKeyBindings": [{
         "before": ["j", "j"],
         "after": ["<esc>"]
     }],
-    "workbench.iconTheme": "material-icon-theme",
+    "vim.statusBarColors.normal": "#102ccfbe",
+    "vim.statusBarColors.replace": "#5f0000",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    /// GIT
+    "git.postCommitCommand": "push",
+    "git.autofetch": true,
+    /// TERMINAL
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-    "python.venvPath": "/Users/shunkakinoki/anaconda3/envs",
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.env.osx": {
-        "PATH": "...://Users/shunkakinoki/anaconda3/bin://Users/shunkakinoki/anaconda3/envs/aws/bin:...",
-    },
+    "terminal.external.osxExec": "Hyper.app",
+    /// FILES
     "files.autoSave": "afterDelay",
     "workbench.useExperimentalGridLayout": true,
-    "sync.quietSync": true,
     "editor.renderIndentGuides": false,
     "editor.renderWhitespace": "all",
+    /// DATETIME
     "dateTime.showDayOfMonth": true,
     "dateTime.showDayOfWeek": true,
     "dateTime.showMonth": true,
     "dateTime.showSeconds": true,
     "dateTime.customFormat": "YYYY/MM/DD/ddd HH:mm:ss",
-    "vim.statusBarColors.normal": "#102ccfbe",
-    "explorer.confirmDragAndDrop": false,
+    /// SPELLING
     "cSpell.enabled": false,
     "cSpell.enabledLanguageIds": [
         "markdown",
     ],
     "cSpell.language": "en",
+    "markdownlint.run": "onSave",
+    /// ZENMODE
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
     "zenMode.hideTabs": false,
-    "vim.easymotion": true,
-    "vim.sneak": true,
+    /// SEARCH
     "search.showLineNumbers": true,
-    "html-css-class-completion.excludeGlobPattern": "*.html",
-    "html-css-class-completion.remoteStyleSheets": [
-        "https://cdn.shunblog.org/wp-content/themes/sango-theme/style.css",
-        "https://cdn.shunblog.org/wp-content/themes/sango-theme/entry-option.css",
-        "https://cdn.shunblog.org/wp-content/themes/sango-theme/library/css/editor-style.css",
-        "https://cdn.shunblog.org/wp-content/themes/sango-theme/library/fontawesome5/css/all.min.css",
-        "https://cdn.shunblog.org/wp-content/themes/sango-theme/library/fontawesome5/css/v4-shims.min.css",
-    ],
     "auto-close-tag.SublimeText3Mode": true,
     "html.autoClosingTags": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
+    /// EDITOR
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
-    "html.format.wrapAttributes": "force-expand-multiline",
-    "html.format.enable": false,
-    "dart.flutterTrackWidgetCreation": true,
-    "dart.flutterCreateIOSLanguage": "swift",
+    "editor.codeLens": false,
+    "editor.suggestSelection": "first",
+    "editor.renderControlCharacters": true,
+    /// EXPLORER
     "explorer.confirmDelete": false,
+    /// CODE RUNNER
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "javascript": "node",
@@ -104,34 +130,9 @@
         "nim": "nim compile --verbosity:0 --hints:off --run",
         "lisp": "sbcl --script"
     },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "C_Cpp.default.cppStandard": "c++14",
-    "C_Cpp.default.intelliSenseMode": "gcc-x64",
-    "python.jediEnabled": false,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "vim.statusBarColors.replace": "#5f0000",
-    "C_Cpp.updateChannel": "Insiders",
-    "editor.renderControlCharacters": true,
-    "files.trimFinalNewlines": true,
-    "breadcrumbs.enabled": true,
-    "workbench.statusBar.feedback.visible": false,
+    /// FILES
     "files.eol": "\n",
-    "[markdown]": {
-        "editor.quickSuggestions": true
-    },
-    "markdownlint.config": {
-        "MD013": false,
-        "MD024": false,
-        "MD041": false
-    },
-    "indenticator.inner.color.light": "#99",
-    "trailing-spaces.liveMatching": false,
-    "dart.flutterSdkPath": "/Users/shunkakinoki/flutter",
-    "python.analysis.disabled": [
-        "unresolved-import"
-    ],
+    "files.trimFinalNewlines": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -142,11 +143,43 @@
         "**/*.pyc": true,
         "**/__pycache__": true,
     },
-    "kite.showWelcomeNotificationOnStartup": false,
+    /// C++
+    "C_Cpp.default.cppStandard": "c++14",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.updateChannel": "Insiders",
+    /// DART
+    "dart.flutterTrackWidgetCreation": true,
+    "dart.flutterCreateIOSLanguage": "swift",
+    "dart.flutterSdkPath": "/Users/shunkakinoki/flutter",
+    /// HTML
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "html.format.enable": false,
+    /// MARKDOWN
+    "markdownlint.config": {
+        "MD013": false,
+        "MD024": false,
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    /// PYTHON
+    "python.jediEnabled": false,
     "python.testing.unittestEnabled": true,
-    "editor.codeLens": false,
-    "git.postCommitCommand": "push",
-    "python.formatting.provider": "autopep8",
-    "python.pythonPath": "/usr/local/miniconda3/envs/line/bin/python",
-    "workbench.colorTheme": "Material Theme Palenight High Contrast"
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/Users/shunkakinoki/.pyenv/shims/python",
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--ignore=E111,E114", "--verbose"],
+    "python.linting.pylintEnabled": false,
+    "python.analysis.disabled": ["unresolved-import", "undefined-variable"],
+    /// ETC
+    "indenticator.inner.color.light": "#99",
+    "trailing-spaces.liveMatching": false,
+    "breadcrumbs.enabled": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "indentRainbow.ignoreErrorLanguages": [
+        "markdown",
+        "python"
+    ],
 }
