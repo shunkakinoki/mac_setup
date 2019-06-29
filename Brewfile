@@ -9,7 +9,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "cocoapods"
-brew "docker"
+brew "docker", link: false
 brew "git"
 brew "git-lfs"
 brew "python"
@@ -19,6 +19,7 @@ brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
 brew "ios-deploy"
+brew "node"
 brew "joplin"
 brew "mas"
 brew "neofetch"
