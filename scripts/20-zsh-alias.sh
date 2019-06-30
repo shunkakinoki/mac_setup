@@ -10,3 +10,6 @@ alias CHANGEALL='code ~/.mac_setup'
 alias SSOFF='defaults -currentHost write com.apple.screensaver idleTime 0'
 alias SSON='defaults -currentHost write com.apple.screensaver idleTime 60'
 alias SST='defaults -currentHost read com.apple.screensaver idleTime'
+
+### FLUTTER ALIAS
+alias FTBUILD='flutter build ios --release --no-codesign'
