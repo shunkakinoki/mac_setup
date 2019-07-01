@@ -15,6 +15,7 @@ brew "git-lfs"
 brew "python"
 brew "go"
 brew "htop"
+brew "hub"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
