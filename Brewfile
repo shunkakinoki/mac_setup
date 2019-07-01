@@ -54,6 +54,7 @@ cask "miniconda"
 cask "slack"
 cask "spotify"
 cask "ticktick"
+cask "virtualbox"
 cask "visual-studio-code"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
