@@ -9,7 +9,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "cocoapods"
-brew "docker", link: false
+brew "docker"
 brew "git"
 brew "git-lfs"
 brew "python"
