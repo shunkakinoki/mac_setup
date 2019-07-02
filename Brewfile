@@ -12,6 +12,7 @@ brew "cocoapods"
 brew "docker", link: false
 brew "git"
 brew "git-lfs"
+brew "python"
 brew "go"
 brew "htop"
 brew "hub"
