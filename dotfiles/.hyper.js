@@ -80,17 +80,17 @@ module.exports = {
     "hyperterm-tabs",
     "hyper-broadcast",
     "hyper-custom-touchbar",
-    "hyper-opacity",
     "hyper-pane",
     "hyper-search",
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
+    "verminal",
+    "hyperalfred"
     /// DEPRECATED
     //  "hyper-star-wars",
     // "hyper-pokemon",
-    "verminal",
-    "hyperalfred"
+
   ],
 
   localPlugins: [],
