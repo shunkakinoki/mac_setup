@@ -50,11 +50,11 @@ module.exports = {
     macOptionSelectionMode: 'vertical',
     webGLRenderer: true,
 
-    // hyperBorder: {
-    //   animate: true,
-    //   borderColors: ['#fc1da7', '#fba506'],
-    //   borderWidth: '3px'
-    // },
+    hyperBorder: {
+      animate: true,
+      borderColors: ['#fc1da7', '#fba506'],
+      borderWidth: '3px'
+    },
 
     /// TODO
     hyperTabsMove: {
@@ -77,7 +77,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hyperalfred",
-    "hyperborder",
+    // "hyperborder",
     "hypercwd",
     "hyperocean",
     "hyperpower",
