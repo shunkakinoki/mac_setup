@@ -56,7 +56,6 @@ module.exports = {
 
     hyperBorder: {
       borderColors: ['#1D976C', '#93F9B9'],
-      blurredColors: ['#177C59', '#84E0A6']
     },
 
     /// DEPRECATED
