@@ -82,7 +82,7 @@ module.exports = {
     "git-falcon9",
     "hypercwd",
     "hyperocean",
-    // "hyperpower",
+    "hyperpower",
     // "hyperterm-tabs",
     // "hyper-broadcast",
     // "hyper-custom-touchbar",
