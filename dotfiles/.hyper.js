@@ -2,6 +2,7 @@ module.exports = {
   config: {
     updateChannel: 'stable',
     fontSize: 16,
+    fontFamily: 'Hack Nerd Font',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
     lineHeight: 1,
@@ -79,20 +80,20 @@ module.exports = {
 
   plugins: [
     "git-falcon9",
-    "hypercwd",
-    "hyperocean",
-    "hyperpower",
-    "hyperterm-tabs",
-    "hyper-broadcast",
-    "hyper-custom-touchbar",
-    "hyper-opacity",
-    "hyper-pane",
-    "hyper-search",
-    "hyper-spotify",
-    "hyper-statusline",
-    "hyper-tab-icons-plus",
-    "verminal",
-    "hyperalfred"
+    // "hypercwd",
+    // "hyperocean",
+    // "hyperpower",
+    // "hyperterm-tabs",
+    // "hyper-broadcast",
+    // "hyper-custom-touchbar",
+    // "hyper-opacity",
+    // "hyper-pane",
+    // "hyper-search",
+    // "hyper-spotify",
+    // "hyper-statusline",
+    // "hyper-tab-icons-plus",
+    // "verminal",
+    // "hyperalfred"
 
     /// DEPRECATED
     //  "hyperborder",
