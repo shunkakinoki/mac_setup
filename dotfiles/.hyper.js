@@ -55,6 +55,7 @@ module.exports = {
     },
 
     hyperBorder: {
+      animate: true,
       borderColors: ['#fc1da7', '#fba506'],
       borderWidth: '3px'
     },
