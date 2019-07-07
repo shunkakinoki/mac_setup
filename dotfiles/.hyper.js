@@ -41,7 +41,8 @@ module.exports = {
 
       verminal: {
         fontFamily: 'Hack Nerd Font',
-      },
+        fontSize: 16
+      }
     },
 
     // shell: 'zsh',
@@ -93,6 +94,7 @@ module.exports = {
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
+    "verminal"
 
     /// DEPRECATED
     //  "hyperborder",
