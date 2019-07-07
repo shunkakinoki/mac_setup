@@ -90,7 +90,7 @@ module.exports = {
     "hyper-opacity",
     "hyper-pane",
     "hyper-search",
-    // "hyper-spotify",
+    "hyper-spotify",
     // "hyper-statusline",
     // "hyper-tab-icons-plus",
     // "verminal",
