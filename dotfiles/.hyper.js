@@ -87,7 +87,7 @@ module.exports = {
     "hyper-broadcast",
     "hyper-custom-touchbar",
     "hyper-opacity",
-    // "hyper-pane",
+    "hyper-pane",
     // "hyper-search",
     // "hyper-spotify",
     // "hyper-statusline",
