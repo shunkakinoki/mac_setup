@@ -12,7 +12,7 @@ module.exports = {
     cursorShape: 'BEAM',
     cursorBlink: true,
     foregroundColor: '#fff',
-    backgroundColor: '#000',
+    // backgroundColor: '#000',
     selectionColor: 'rgba(248,28,229,0.3)',
     borderColor: '#333',
     css: '',
