@@ -81,7 +81,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hypercwd",
-    // "hyperocean",
+    "hyperocean",
     // "hyperpower",
     // "hyperterm-tabs",
     // "hyper-broadcast",
