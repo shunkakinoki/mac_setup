@@ -2,7 +2,6 @@ module.exports = {
   config: {
     updateChannel: 'stable',
     fontSize: 16,
-    fontFamily: 'Hack Nerd Font',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
     lineHeight: 1,
@@ -38,6 +37,10 @@ module.exports = {
       lightMagenta: '#FD7CFC',
       lightCyan: '#68FDFE',
       lightWhite: '#FFFFFF',
+
+      verminal: {
+        fontFamily: 'Hack Nerd Font',
+      },
     },
 
     // shell: 'zsh',
