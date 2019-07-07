@@ -84,7 +84,7 @@ module.exports = {
     "hyperocean",
     "hyperpower",
     "hyperterm-tabs",
-    // "hyper-broadcast",
+    "hyper-broadcast",
     // "hyper-custom-touchbar",
     // "hyper-opacity",
     // "hyper-pane",
