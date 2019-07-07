@@ -50,18 +50,18 @@ module.exports = {
     macOptionSelectionMode: 'vertical',
     webGLRenderer: true,
 
+    hyperBorder: {
+      animate: true,
+      borderColors: ['#fc1da7', '#fba506'],
+      borderWidth: '3px'
+    },
+
     /// TODO
     hyperTabsMove: {
       moveLeft: 'command+shift+left',
       moveRight: 'command+shift+right',
     },
 
-    /// DEPRECATED
-    hyperBorder: {
-      animate: true,
-      borderColors: ['#fc1da7', '#fba506'],
-      borderWidth: '3px'
-    },
 
     /// DEPRECATED
     StarWarsTheme: {
