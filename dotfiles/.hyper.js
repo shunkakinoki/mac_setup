@@ -2,7 +2,7 @@ module.exports = {
   config: {
     updateChannel: 'stable',
     fontSize: 16,
-    fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"DejaVu Sans Mono for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
     lineHeight: 1,
@@ -52,7 +52,11 @@ module.exports = {
     hyperTabsMove: {
       moveLeft: 'command+shift+left',
       moveRight: 'command+shift+right',
+    },
 
+    hyperBorder: {
+      borderColors: ['#1D976C', '#93F9B9'],
+      blurredColors: ['#177C59', '#84E0A6']
     },
 
     /// DEPRECATED
@@ -68,6 +72,7 @@ module.exports = {
 
   plugins: [
     "git-falcon9",
+    "hyperborder",
     "hypercwd",
     "hyperocean",
     "hyperpower",
