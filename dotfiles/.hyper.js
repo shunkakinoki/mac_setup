@@ -83,7 +83,7 @@ module.exports = {
     "hypercwd",
     "hyperocean",
     "hyperpower",
-    // "hyperterm-tabs",
+    "hyperterm-tabs",
     // "hyper-broadcast",
     // "hyper-custom-touchbar",
     // "hyper-opacity",
