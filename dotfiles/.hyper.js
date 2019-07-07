@@ -80,6 +80,7 @@ module.exports = {
 
   plugins: [
     "git-falcon9",
+    "hyperalfred",
     "hypercwd",
     "hyperocean",
     "hyperpower",
@@ -93,7 +94,6 @@ module.exports = {
     // "hyper-statusline",
     // "hyper-tab-icons-plus",
     // "verminal",
-    // "hyperalfred"
 
     /// DEPRECATED
     //  "hyperborder",
