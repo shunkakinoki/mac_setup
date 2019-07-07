@@ -93,7 +93,7 @@ module.exports = {
     "hyper-spotify",
     "hyper-statusline",
     "hyper-tab-icons-plus",
-    // "verminal",
+    "verminal",
 
     /// DEPRECATED
     //  "hyperborder",
