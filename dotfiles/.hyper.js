@@ -77,6 +77,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hyperalfred",
+    "hyperborder",
     "hypercwd",
     "hyperocean",
     "hyperpower",
@@ -91,7 +92,6 @@ module.exports = {
     "hyper-tab-icons-plus",
 
     /// DEPRECATED
-    //  "hyperborder",
     //  "hyper-star-wars",
     // "hyper-pokemon",
     // "verminal"
