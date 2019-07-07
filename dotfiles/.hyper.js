@@ -85,7 +85,7 @@ module.exports = {
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
-    // "hyper-custom-touchbar",
+    "hyper-custom-touchbar",
     // "hyper-opacity",
     // "hyper-pane",
     // "hyper-search",
