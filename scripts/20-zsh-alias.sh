@@ -15,3 +15,6 @@ alias SST='defaults -currentHost read com.apple.screensaver idleTime'
 
 ### FLUTTER ALIAS
 alias FTBUILD='flutter build ios --release --no-codesign'
+
+### LSD ALIAS
+alias ls='lsd'
