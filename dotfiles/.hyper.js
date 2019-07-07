@@ -83,7 +83,6 @@ module.exports = {
     "hyperterm-tabs",
     "hyper-broadcast",
     "hyper-custom-touchbar",
-    "hyper-opacity",
     "hyper-pane",
     "hyper-search",
     "hyper-spotify",
@@ -91,6 +90,7 @@ module.exports = {
     "hyper-tab-icons-plus",
 
     /// DEPRECATED
+    // "hyper-opacity",
     //  "hyper-star-wars",
     // "hyper-pokemon",
     // "verminal"
