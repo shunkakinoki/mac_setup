@@ -55,7 +55,8 @@ module.exports = {
     },
 
     hyperBorder: {
-      borderColors: ['#1D976C', '#93F9B9'],
+      borderColors: ['#fc1da7', '#fba506'],
+      borderWidth: '8px'
     },
 
     /// DEPRECATED
