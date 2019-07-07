@@ -79,6 +79,7 @@ HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
 # HYPER TAB TITLE SETTINGS
+# FROM: https://github.com/zeit/hyper/issues/1188#issuecomment-332606903
 # Override auto-title when static titles are desired ($ title My new title)
 title() { export TITLE_OVERRIDDEN=1; echo -en "\e]0;$*\a"}
 # Turn off static titles ($ autotitle)
