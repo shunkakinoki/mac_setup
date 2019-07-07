@@ -14,7 +14,7 @@ module.exports = {
     foregroundColor: '#fff',
     backgroundColor: '#000',
     selectionColor: 'rgba(248,28,229,0.3)',
-    borderColor: '#333',
+    borderColor: 'rgba(0,0,0,.15)',
     css: '',
     termCSS: '',
     bell: false,
