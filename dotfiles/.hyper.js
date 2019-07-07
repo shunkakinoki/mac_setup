@@ -2,7 +2,7 @@ module.exports = {
   config: {
     updateChannel: 'stable',
     fontSize: 16,
-    fontFamily: '"DejaVu Sans Mono for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Hack Nerd Font',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
     lineHeight: 1,
@@ -56,6 +56,7 @@ module.exports = {
       moveRight: 'command+shift+right',
     },
 
+    /// DEPRECATED
     hyperBorder: {
       animate: true,
       borderColors: ['#fc1da7', '#fba506'],
