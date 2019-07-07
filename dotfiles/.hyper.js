@@ -8,7 +8,7 @@ module.exports = {
     lineHeight: 1,
     letterSpacing: 0,
     cursorColor: 'rgba(248,28,229,0.8)',
-    cursorAccentColor: '#000',
+    cursorAccentColor: 'rgba(248,28,229,0.8)',
     cursorShape: 'BEAM',
     cursorBlink: true,
     foregroundColor: '#fff',
@@ -77,7 +77,7 @@ module.exports = {
   plugins: [
     "git-falcon9",
     "hyperalfred",
-    // "hyperborder",
+    "hyperborder",
     "hypercwd",
     "hyperocean",
     "hyperpower",
