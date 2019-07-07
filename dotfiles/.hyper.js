@@ -48,6 +48,7 @@ module.exports = {
     quickEdit: false,
     macOptionSelectionMode: 'vertical',
     webGLRenderer: true,
+
     /// TODO
     hyperTabsMove: {
       moveLeft: 'command+shift+left',
@@ -75,7 +76,6 @@ module.exports = {
     "git-falcon9",
     "hyperborder",
     "hypercwd",
-    "hyperocean",
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
