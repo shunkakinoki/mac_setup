@@ -10,6 +10,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 PATH+=:$HOME/n/bin
 PATH+=:$HOME/flutter/bin
 PATH+=:$HOME/.fastlane/bin
+PATH+=:$HOME/.rvm/bin
 
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
