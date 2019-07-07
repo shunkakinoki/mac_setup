@@ -91,7 +91,7 @@ module.exports = {
     "hyper-pane",
     "hyper-search",
     "hyper-spotify",
-    // "hyper-statusline",
+    "hyper-statusline",
     // "hyper-tab-icons-plus",
     // "verminal",
 
