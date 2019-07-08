@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     updateChannel: 'stable',
-    fontSize: 12,
+    fontSize: 14,
     fontFamily: 'Hack Nerd Font',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
