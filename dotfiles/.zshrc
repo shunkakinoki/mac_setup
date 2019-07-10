@@ -128,4 +128,8 @@ antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-history-substring-search
 antibody bundle zsh-users/zsh-completions
 antibody bundle marzocchi/zsh-notify
+<<<<<<< HEAD
 antibody bundle paulirish/git-open
+=======
+antibody bundle paulirish/git-open 
+>>>>>>> 68be239cd026ae353d8b60abe18d84471b8e15a4
