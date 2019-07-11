@@ -8,6 +8,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+brew "cmake"
 brew "cocoapods"
 brew "coreutils"
 brew "docker", link: false
@@ -19,6 +20,7 @@ brew "hub"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
+brew "libomp"
 brew "ios-deploy"
 brew "node"
 brew "joplin"
