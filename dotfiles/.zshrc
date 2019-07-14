@@ -77,6 +77,8 @@ HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
+unsetopt PROMPT_SP
+
 # HYPER TAB TITLE SETTINGS
 # FROM: https://github.com/zeit/hyper/issues/1188#issuecomment-332606903
 # Override auto-title when static titles are desired ($ title My new title)
