@@ -87,7 +87,7 @@ module.exports = {
     "hyper-search",
     "hyper-spotify",
     "hyper-statusline",
-    "hyper-tab-icons-plus",
+    "hyper-tabs-enhanced",
 
     /// DEPRECATED
     // "hyper-opacity",
