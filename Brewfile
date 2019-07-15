@@ -16,7 +16,7 @@ brew "docker", link: false
 brew "gcc"
 brew "git"
 brew "git-lfs"
-brew "python"
+brew "python", link: false
 brew "go"
 brew "htop"
 brew "hub"
