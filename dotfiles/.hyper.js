@@ -56,6 +56,21 @@ module.exports = {
       borderWidth: '3px'
     },
 
+    hyperline: {
+      plugins: [
+        "hostname",
+        "ip",
+        "memory",
+        "uptime",
+        "cpu",
+        "network",
+        "battery",
+        "time",
+        "docker",
+        "spotify",
+      ]
+    },
+
     /// TODO
     hyperTabsMove: {
       moveLeft: 'command+shift+left',
