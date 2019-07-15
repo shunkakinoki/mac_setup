@@ -80,6 +80,9 @@ SAVEHIST=$HISTSIZE
 # FIX FOR `%` SIGN SHOWING UP ON FIRST LINE
 unsetopt PROMPT_SP
 
+# AUTOJUMP CONFIG
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
 # HYPER TAB TITLE SETTINGS
 # FROM: https://github.com/zeit/hyper/issues/1188#issuecomment-332606903
 # Override auto-title when static titles are desired ($ title My new title)
