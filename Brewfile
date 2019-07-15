@@ -11,7 +11,7 @@ tap "homebrew/services"
 brew "cmake"
 brew "cocoapods"
 brew "coreutils"
-brew "docker", link: false
+brew "docker"
 brew "gcc"
 brew "git"
 brew "git-lfs"
