@@ -79,6 +79,7 @@ module.exports = {
     "hyperalfred",
     "hyperborder",
     "hypercwd",
+    "hyperline",
     "hyperpower",
     "hyperterm-tabs",
     "hyper-broadcast",
