@@ -86,8 +86,6 @@ module.exports = {
     "hyper-custom-touchbar",
     "hyper-pane",
     "hyper-search",
-    "hyper-spotify",
-    "hyper-statusline",
     "hyper-tabs-enhanced",
 
     /// DEPRECATED
