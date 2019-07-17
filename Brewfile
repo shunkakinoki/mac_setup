@@ -13,6 +13,7 @@ brew "cmake"
 brew "cocoapods"
 brew "coreutils"
 brew "docker", link: false
+brew "fd"
 brew "gcc"
 brew "git"
 brew "git-lfs"
