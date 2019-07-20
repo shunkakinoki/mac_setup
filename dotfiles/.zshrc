@@ -3,6 +3,7 @@ export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$/Library/TeX/texbin"
 
 ### PATHS
 export HOME="$HOME"
