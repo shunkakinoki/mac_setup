@@ -1,6 +1,7 @@
 tap "caskroom/cask"
 tap "caskroom/versions"
 tap "cjbassi/gotop"
+tap "d12frosted/emacs-plus"
 tap "dart-lang/dart"
 tap "getantibody/tap"
 tap "homebrew/bundle"
