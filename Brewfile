@@ -18,7 +18,7 @@ brew "fd"
 brew "gcc"
 brew "git"
 brew "git-lfs"
-brew "python", link: false
+brew "python"
 brew "go"
 brew "htop"
 brew "hub"
