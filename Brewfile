@@ -80,3 +80,4 @@ mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Motion", id: 434290957
 mas "Pixelmator Pro", id: 1289583905
+mas "Xcode", id: 497799835
