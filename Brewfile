@@ -26,6 +26,7 @@ brew "hub"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "ideviceinstaller"
+brew "libomp"
 brew "ios-deploy"
 brew "iproute2mac"
 brew "node"
