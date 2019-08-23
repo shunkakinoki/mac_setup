@@ -18,7 +18,7 @@ brew "docker", link: false
 brew "fd"
 brew "python"
 brew "ffmpeg"
-brew "gcc"
+brew "gcc", link: false
 brew "git"
 brew "git-lfs"
 brew "go"
