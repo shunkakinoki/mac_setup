@@ -11,12 +11,12 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 brew "autojump"
+brew "python"
 brew "cmake"
 brew "cocoapods"
 brew "coreutils"
 brew "docker", link: false
 brew "fd"
-brew "python"
 brew "ffmpeg"
 brew "gcc", link: false
 brew "git"
@@ -78,7 +78,6 @@ cask "notion"
 cask "slack"
 cask "spotify"
 cask "ticktick"
-cask "virtualbox"
 cask "visual-studio-code"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
