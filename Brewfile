@@ -57,7 +57,7 @@ brew "zsh-syntax-highlighting"
 brew "cjbassi/gotop/gotop"
 brew "dart-lang/dart/dart"
 brew "getantibody/tap/antibody"
-brew "jesseduffield/lazydocker/lazydocker", link: false
+brew "jesseduffield/lazydocker/lazydocker"
 cask "alfred"
 cask "anki"
 cask "dash"
