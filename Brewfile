@@ -23,6 +23,7 @@ brew "git"
 brew "git-lfs"
 brew "go"
 brew "htop"
+brew "httpie"
 brew "hub"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
