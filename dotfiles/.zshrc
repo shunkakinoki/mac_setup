@@ -135,4 +135,5 @@ antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-history-substring-search
 antibody bundle zsh-users/zsh-completions
 antibody bundle marzocchi/zsh-notify
+antibody bundle MichaelAquilina/zsh-you-should-use
 antibody bundle paulirish/git-open
