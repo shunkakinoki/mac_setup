@@ -1,3 +1,5 @@
+tap "homebrew/cask-cask"
+tap "homebrew/cask-versions"
 tap "cjbassi/gotop"
 tap "d12frosted/emacs-plus"
 tap "dart-lang/dart"
