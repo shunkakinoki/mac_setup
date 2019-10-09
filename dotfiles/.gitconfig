@@ -1,6 +1,7 @@
 [user]
     name = Shun Kakinoki
     email = shunkakinoki@gmail.com
+	signingkey = 491B5B0991F7305B
 
 [include]
     path = ~/.gitalias.txt
@@ -8,3 +9,7 @@
 [alias]
     cme = commit -m "wip" --allow-empty
     bd = branch -d
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
