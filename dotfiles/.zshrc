@@ -13,6 +13,12 @@ PATH+=:$HOME/flutter/bin
 PATH+=:$HOME/.fastlane/bin
 PATH+=:$HOME/.rvm/bin
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/shunkakinoki/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/shunkakinoki/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/shunkakinoki/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/shunkakinoki/google-cloud-sdk/completion.zsh.inc'; fi
+
 ### MAC SETUP SCRIPTS
 chmod +x ~/.mac_setup/scripts/*.sh
 for script in ~/.mac_setup/scripts/20-*.sh; do source $script; done
