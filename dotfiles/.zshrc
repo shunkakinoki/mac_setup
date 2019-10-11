@@ -135,8 +135,8 @@ zstyle ':completion:::::' completer _expand _complete _ignored _approximate
 # LOAD ANTIBODY PLUGIN MANAGER
 source <(antibody init)
 
-# LOAD AUTOENV
-source $(brew --prefix autoenv)/activate.sh
+# LOAD DIRENV
+eval "$(direnv hook zsh)"
 
 # INSTALL PLUGINS
 antibody bundle zdharma/fast-syntax-highlighting
